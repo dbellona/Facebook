@@ -20,6 +20,7 @@ class PeopleViewController: UIViewController, UIScrollViewDelegate {
         scrollView.delegate = self
         scrollView.contentSize = peopleImage.frame.size
         scrollView.sendSubviewToBack(peopleImage)
+        println("scrollView.contentSize: \(scrollView.contentSize)")
 
     }
 
